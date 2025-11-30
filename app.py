@@ -1,3 +1,6 @@
+import os
+os.environ['TF_USE_LEGACY_KERAS'] = 'True'
+
 import streamlit as st
 import tensorflow as tf
 from transformers import AutoTokenizer, TFAutoModelForSequenceClassification
